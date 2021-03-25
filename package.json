@@ -1,0 +1,30 @@
+{
+  "name": "@crunkstar/platform-ws-msgpack",
+  "version": "7.7.1",
+  "description": "A WS Adapter for NestJS that encodes messages with msgpack",
+  "author": {
+    "name": "Crunkstar",
+    "url": "https://0x657865.net"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crunkstar/platform-ws-msgpack"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "msgpack-lite": "^0.1.26",
+    "tslib": "2.1.0",
+    "ws": "7.4.4"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^7.0.0",
+    "@nestjs/websockets": "^7.0.0",
+    "rxjs": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35"
+  }
+}
